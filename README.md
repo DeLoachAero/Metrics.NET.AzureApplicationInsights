@@ -49,6 +49,7 @@ resource to paste into the App.config file, to start writing
 data to your AI repository.
 
 Sample call for Metrics.NET configuration:
+
 	Metric.Config
         //.WithAllCounters()
         .WithReporting(config => config
